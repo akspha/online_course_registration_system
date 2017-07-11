@@ -1,0 +1,43 @@
+header {
+	
+	background-color: white;
+	font-family: Arial;
+	
+}
+
+#utdWordMark{
+	color: orange;
+}
+header nav a {
+	
+	color: white;
+	 text-decoration: none ;
+
+}
+header nav ul #loginout{
+	float:right;
+	
+}
+nav {
+background-color: #69BE28;
+}
+
+
+header nav ul li{
+	display: inline
+}
+
+header nav ul li a:hover {
+	color: #FFB612;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+footer div{
+	text-align: center;
+	font-weight: bold;
+
+}

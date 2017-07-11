@@ -1,0 +1,89 @@
+header {
+	
+	background-color: white;
+	font-family: Arial;
+	
+}
+
+#utdWordMark{
+	color: orange;
+}
+header nav a {
+	
+	color: white;
+	 text-decoration: none ;
+	 font-size: 115%;
+
+}
+
+header nav ul #loginout{
+	float:right;
+	
+}
+
+nav {
+background-color: #69BE28;
+}
+
+
+header nav ul li{
+	display: inline
+}
+
+header nav ul li a:hover {
+	color: #FFB612;
+}
+
+a{
+	text-decoration: none;
+}
+
+header h2, header h3 {
+	text-align: center;
+	font-family: arial;
+}
+#condition{
+	font-weight: bold;
+}
+footer div{
+	text-align: center;
+	font-weight: bold;
+	font-size: 115%;
+	background-color: #69BE28;
+
+
+}
+
+footer a {
+	color: white;
+}
+
+#content{
+
+	margin-right: 20%;
+	margin-left: 20%;
+	align-content: center;
+	background-color: #FFFFFF;
+}
+
+
+.buttons{
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  
+  background-color: #69BE28;
+ 
+  border-radius: 15px;
+
+}
+.button_group{
+	text-align  : center;
+}
+
+form
+{
+	font-size: 115%;
+}

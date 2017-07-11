@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> login </title>
+		<link rel = "stylesheet" href = "log_in_out_screen.css"/>
+	</head>
+
+	<script> 
+	function ChangeLoginToLogout(){
+		//This function changes the word Logout at the right hand corner of the navigation bar
+		//to login when user tries to login with invalid details
+		document.getElementById("loginout").innerHTML = ' <a href = "login_screen.html"> login</a>';
+	}
+	</script>
+
+
+
+	<body>
+		<header>
+		<h1> The University of Texas at Dallas</h1>
+		<nav> 
+			
+
+			
+		</nav>
+		
+		
+		<div id = "content">
+		<p id = "banner"> Course Planner </p>
+		</header>
+		<form method = "POST" action = "login_main_menu.php">
+			<fieldset>
+				<legend> Student Login </legend>
+				<p>
+				<label>Username:</label> 
+				<input type = "text" name = "netid" />  <!-- pattern = "([a-z]{3}[0-9]{6})|student" -->
+				</p>
+
+				<p>
+				<label>Password:</label> <input type = "password" name = "pass"/> <br/>
+				<input class = "buttons" type = "submit" name = "submitButton_student" value = "login"/>
+				</p>
+			</fieldset>
+
+			
+
+		</form>
+		<br/>
+		<form method = "POST" action = "admin_menu.php">
+			<fieldset>
+				<legend> Administrator Login </legend>
+				<p>
+				<label>Username:</label> 
+				<input type = "text" name = "netid"/> <!-- pattern = "([a-z]{3}[0-9]{6})|admin" -->
+				</p>
+
+				<p>
+				<label>Password:</label> <input type = "password" name = "pass"/> <br/>
+				<input class = "buttons" type = "submit" name = "submitButton_admin" value = "login"/>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+	</body>
+</html>

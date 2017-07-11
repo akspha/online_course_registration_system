@@ -1,0 +1,75 @@
+header {
+	
+	background-color: white;
+	font-family: Arial;
+	color: orange;
+}
+header p {
+	color: green;
+
+}
+header nav a {
+	
+	color: white;
+	
+}
+
+nav {
+background-color: #69BE28;
+color:black;
+height: 3.4%;
+}
+
+header nav ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header nav ul li{
+	display: inline
+}
+
+header nav ul li a:hover {
+	font-style: italic;
+}
+
+a{
+	text-decoration: none;
+}
+
+header nav ul #loginout{
+	float:right;
+	font-size: 115%;
+	
+}
+
+
+
+form {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 115%;
+}
+
+ #banner{
+	background-color: #69BE28;
+	color: white;
+	font-size: 115%;
+}
+
+.buttons{
+  padding: 15px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  
+  background-color: #69BE28;
+ 
+  border-radius: 15px;
+
+}

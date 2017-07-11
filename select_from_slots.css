@@ -1,0 +1,157 @@
+header {
+	
+	background-color: white;
+	font-family: Arial;
+	
+}
+
+#utdWordMark{
+	color: orange;
+}
+
+header nav a {
+	
+	color: white;
+	 text-decoration: none ;
+	 font-size: 115%;
+
+}
+header nav ul #loginout{
+	float:right;
+	
+}
+nav {
+background-color: #69BE28;
+}
+
+
+header nav ul li{
+	display: inline
+}
+
+header nav ul li a:hover {
+	color: #FFB612;
+}
+
+a{
+	text-decoration: none;
+}
+.course_heading{
+	font-family: Helvetica ;
+	margin-left: 45 px;
+	color: green;
+	font-size: 10 pt;
+}
+
+footer div{
+	text-align: center;
+	font-weight: bold;
+	background-color: #69BE28;
+
+}
+
+footer a{
+	color: white;
+	font-size: 115%;
+}
+table{
+	border-collapse: collapse;
+}
+th {
+    background-color: #008542;
+    color: white;
+}
+
+td{
+	background-color: #C75B12;
+	color: white;
+	
+	font-size: 125% ;
+}
+/*tr:nth-child(even){background-color: #f2f2f2 ;}*/
+
+ .date_time{
+	width: 500px;
+	color: #C75B12;
+}
+
+ .date_time : hover{
+	background-color:  green;
+	
+}
+
+.year{
+
+	text-align: center;
+	font-size: 115%;
+	background-color: white;
+
+}
+
+
+ .date{
+ 	text-align: center;
+	font-size: 165%;
+	background-color: white;
+}
+
+ .month{
+	text-align: center;
+	font-size: 125%;
+	background-color: white;
+
+}
+
+ .day{
+ 	text-align: center;
+	font-size: 115%;
+	background-color: white;
+
+}
+.time{
+
+	text-align: center;
+	font-size: 115%;
+	background-color: white;
+
+}
+
+
+.date_time_notify{
+	width: 500px;
+	color: red;
+	
+
+}
+
+ 
+
+table caption{
+	font-size: 130%;
+	font-weight: bold ;
+}
+
+.buttons{
+  padding: 10px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  
+  background-color: #69BE28;
+ 
+  border-radius: 15px;
+
+}
+.button_group{
+	text-align  : center;
+}
+
+#content{
+
+	margin-right: 20%;
+	margin-left: 20%;
+	align-content: center;
+	background-color: #FFFFFF;
+}
+

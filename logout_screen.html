@@ -1,0 +1,52 @@
+<?php
+$cookie_name = "last_login_time";
+$cookie_value = date("l jS \of F Y h:i:s A") ;
+
+
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
+
+<html>
+	<head> 
+		<title> logout </title>
+		<link rel = "stylesheet" href  = "log_in_out_screen.css">
+	</head>
+
+	<?php 
+	// remove all session variables
+	session_unset(); 
+
+	// destroy the session 
+	session_destroy(); 
+	?>
+	
+	<body> 
+		<header>
+		<h1> The University of Texas at Dallas</h1>
+		<nav> 
+			<ul>
+				Login to register for courses
+				<li id = "loginout"> <a href = "login_screen.html">log in </a></li>
+			</ul>
+		</nav>
+		<p> Course Planner </p>
+		</header>
+		<p> You have been logged out.. </p>
+
+		<?php
+			$cookie_name = "last_login_time";
+
+			if(!isset($_COOKIE[$cookie_name])) {
+			    echo "Cookie named '" . $cookie_name . "' is not set!<br/>";
+			} 
+			else {
+			    echo "Cookie '" . $cookie_name . "' is set!<br>";
+			    echo "Value is: " . $_COOKIE[$cookie_name];
+			}
+		?>
+
+	</body>
+
+
+
+</html>

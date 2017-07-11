@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="./jquery.datetimepicker.css"/>
+<style type="text/css">
+
+.custom-date-style {
+	background-color: red !important;
+}
+
+.input{	
+}
+.input-wide{
+	width: 500px;
+}
+
+</style>
+</head>
+<body>
+	
+	<p><a href="http://xdsoft.net/jqplugins/datetimepicker/">Homepage</a></p>
+	<h3>DateTimePicker</h3>
+	<input type="text" value="" id="datetimepicker"/><br><br>
+	<input type="text" value="" id="datetimepicker1"/><br><br>
+
+	<input type="text" value="" id="datetimepicker2"/><br><br>
+	<input type="text" value="" id="datetimepicker3"/><br><br>
+	<input type="text" value="" id="datetimepicker4"/><br><br>
+	<input type="text" value="" id="datetimepicker5"/><br><br>
+	<input type="text" value="" id="datetimepicker6"/><br><br>
+
+	<h3>Button Trigger</h3>
+	<input type="text" value="2013/12/03 18:00" id="datetimepicker7"/>
+	<input id="open" type="button" value="open"/>
+	<input id="close" type="button" value="close"/>
+	<input id="reset" type="button" value="reset"/>
+ 
+</body>
+
+		<script src="./jquery.js"></script>
+		<script src="build/jquery.datetimepicker.full.js"></script>
+
+		<script>
+		$.datetimepicker.setLocale('en');
+
+		
+		$('#datetimepicker').datetimepicker({value:'1991/12/11 05:03',step:10});
+
+		$('#datetimepicker1').datetimepicker({timepicker:false});
+
+		$('#datetimepicker2').datetimepicker({datepicker:false});
+
+	$('#datetimepicker3').datetimepicker({datepicker: false, allowTimes: ['11:00','13:35','15:28']});
+	$('#datetimepicker4').datetimepicker({theme: 'dark'});
+	$('#datetimepicker5').datetimepicker({weeks: true, step: 5});
+	
+	$('#datetimepicker6').datetimepicker({mask:true});
+	$('#datetimepicker7').datetimepicker();
+	$('#open').click(function(){$('#datetimepicker7').datetimepicker('show');}) ;
+	$('#close').click(function(){$('#datetimepicker7').datetimepicker('hide');}) ;
+	$('#reset').click(function(){$('#datetimepicker7').datetimepicker('reset');}) ;
+
+		</script>
+
+
+
+</html>

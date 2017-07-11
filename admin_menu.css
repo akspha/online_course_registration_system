@@ -1,0 +1,64 @@
+header {
+	
+	background-color: white;
+	font-family: Arial;
+	
+}
+header nav ul #loginout{
+	float:right;
+	
+}
+
+#utdWordMark{
+	color: orange;
+}
+header nav a {
+	
+	color: white;
+	 text-decoration: none ;
+
+}
+
+nav {
+background-color: #69BE28;
+height: 3.4%;
+font-size: 115%;
+}
+
+
+header nav ul li{
+	display: inline
+}
+
+header nav ul li a:hover {
+	color: #FFB612;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+td{
+	font-family: Arial;
+	font-size: 50;
+}
+
+td a:hover{
+	color: #008542;
+}
+
+td a:active{
+	background-color: 
+}
+
+caption h1{
+	color: #C75B12;
+}
+
+
+#menu {
+	margin-right: 23% ;
+	margin-left: 27%;
+
+}

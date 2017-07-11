@@ -1,0 +1,140 @@
+
+header {
+	
+	background-color: white;
+	font-family: Arial;
+	color: orange;
+}
+h2{
+	text-align: center;
+}
+h5{
+	text-align: center;
+}
+header nav a {
+	
+	color: white;
+	 text-decoration: none ;
+	 font-size: 115%;
+
+}
+
+
+header nav ul #loginout{
+	float:right;
+	
+}
+
+nav {
+background-color: #69BE28;
+}
+
+
+header nav ul li{
+	display: inline
+}
+
+header nav ul li a:hover {
+	color: #FFB612;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#utdWordMark {
+	
+	background-color: white;
+	font-family: Arial;
+	color: orange;
+}
+
+h3{
+	font-family: Arial;
+	margin-left: 25 px;
+	color: #C75B12 ;
+}
+
+article{
+	/*font-family: Arial ;
+	margin-right: 20% ;
+	float: left;
+	text-align: left;*/
+	
+
+	margin-right: 20%;
+	margin-left: 20%;
+	align-content: center;
+	background-color: #FFFFFF;
+	font-size:  115%;
+
+
+}
+
+.AItrack{
+	font-family: Helvetica ;
+	margin-left: 45 px;
+	color: green;
+	font-size: 10 pt;
+}
+
+
+
+a:hover{
+	color: darkseagreen;
+}
+a:visited{
+			 	text-decoration: none ;
+			 	
+}
+
+aside{
+	
+	margin-left: 80% ;
+	width: 20%;
+	position: absolute;
+	float: right;
+	background-color: #69BE28;
+}
+
+
+#ul_navigation{
+	list-style-type: none;
+	
+}
+
+.li_navigation  {
+	
+    width: 100%;
+   
+}
+
+.li_navigation   a {
+	display: block;
+	text-decoration: none ;
+    margin: 5 px;
+}
+
+.li_navigation a:hover{
+	color: #FFB612;
+	background-color: white;
+}
+
+.li_navigation a:active{
+	color: #C9DD03;
+	/*background-color: white;*/
+}
+
+footer div{
+	text-align: center;
+	font-weight: bold;
+	background-color: #69BE28;
+
+}
+
+footer a {
+	font-size: 115% ;
+	color:  white;
+
+}

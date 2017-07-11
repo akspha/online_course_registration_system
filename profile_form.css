@@ -1,0 +1,86 @@
+header {
+	
+	background-color: white;
+	font-family: Arial;
+	
+}
+
+#content{
+
+	margin-right: 20%;
+	margin-left: 20%;
+	align-content: center;
+	background-color: #FFFFFF;
+}
+
+#utdWordMark{
+	color: orange;
+}
+header nav a {
+	
+	color: white;
+	 text-decoration: none ;
+	 font-size: 115%;
+
+}
+header nav ul #loginout{
+	float:right;
+	
+}
+
+nav {
+background-color: #69BE28;
+}
+
+
+header nav ul li{
+	display: inline
+}
+
+header nav ul li a:hover {
+	color: #FFB612;
+}
+
+a{
+	text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 125%;
+}
+
+
+
+footer div{
+	text-align: center;
+	font-weight: bold;
+
+}
+
+tr,th,td{
+	border-collapse: collapse;
+	
+}
+
+th{
+	background-color: #008542;
+	color:white;
+}
+
+tr{
+	color: white;
+	background-color: #FFB612 ;
+}
+
+
+footer{
+	background-color: #69BE28;
+
+}
+
+footer a{
+	color:white;
+	text-decoration: none;
+	font-size: 115%;
+}
